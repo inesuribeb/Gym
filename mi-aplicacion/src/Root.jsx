@@ -1,8 +1,14 @@
 import { Outlet } from "react-router-dom";
+import Header from './components/NavBar/Header'
+import Footer from './components/Footer/Footer'
 
-function Root () {
+function Root() {
     return (
-        <Outlet />
+        <div>
+            <Header />
+            <Outlet />
+            <Footer />
+        </div>
     )
 }
 
