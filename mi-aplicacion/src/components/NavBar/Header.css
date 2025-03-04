@@ -22,6 +22,7 @@
 
 .header-container h1 {
     margin: 0;
+    padding-left: 1rem;
 }
 
 .header-container h1 a {
@@ -116,7 +117,7 @@
 
 /* Tema oscuro */
 .header-dark {
-    color: #ffffff;
+    color: #F6EAD3;
     background: transparent;
 }
 
@@ -126,15 +127,15 @@
 }
 
 .header-dark h1 a {
-    color: #ffffff;
+    color: #F6EAD3;
     text-decoration: none;
 }
 
 .header-dark .nav-list a {
-    color: #ffffff;
+    color: #F6EAD3;
     text-decoration: none;
 }
 
 .header-dark .nav-list a:hover {
-    color: #ffffff;
+    color: #F6EAD3;
 }
