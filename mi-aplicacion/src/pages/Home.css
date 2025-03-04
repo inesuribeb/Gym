@@ -1,6 +1,11 @@
-.vosotros-container {
+.home-container {
     background-color: black;
     color: white;
     min-height: 200vh;
     padding-top: 80px;
 }
+
+/* .home-container h1 {
+    padding: 0;
+    margin: 0;
+} */

@@ -1,0 +1,16 @@
+/* .outlet-container {
+    margin-top: 80px;
+} */
+
+.all-container {
+    animation: fadeInDesktop 0.8s ease-in forwards;
+}
+
+@keyframes fadeInDesktop {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
