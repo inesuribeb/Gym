@@ -117,7 +117,7 @@
 
 /* Tema oscuro */
 .header-dark {
-    color: #F6EAD3;
+    color: #ffffff;
     background: transparent;
 }
 
@@ -127,15 +127,15 @@
 }
 
 .header-dark h1 a {
-    color: #F6EAD3;
+    color: #ffffff;
     text-decoration: none;
 }
 
 .header-dark .nav-list a {
-    color: #F6EAD3;
+    color: #ffffff;
     text-decoration: none;
 }
 
 .header-dark .nav-list a:hover {
-    color: #F6EAD3;
+    color: #ffffff;
 }
