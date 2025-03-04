@@ -28,7 +28,7 @@
 .header-container h1 a {
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 1.1px;
+    letter-spacing: 1.3px;
     font-weight: 700;
     font-size: 14px;
     font-family: 'RobotoBold', sans-serif;
@@ -58,7 +58,7 @@
 .nav-list a {
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 1.1px;
+    letter-spacing: 1.3px;
     font-weight: 700;
     font-size: 14px;
     font-family: 'RobotoBold', sans-serif;

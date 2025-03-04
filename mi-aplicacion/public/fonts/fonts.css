@@ -11,3 +11,10 @@
     font-weight: regular;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('/fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: light;
+    font-style: normal;
+}

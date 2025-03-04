@@ -65,7 +65,7 @@ function Picture() {
     return (
         <div className='picture-container'>
             <div className='image-wrapper'>
-                <img src="/pictures/summit8.png" alt="mujer en gimnasio empujando rueda" />
+                <img src="/pictures/prueba.png" alt="mujer en gimnasio empujando rueda" />
                 <div 
                     className="image-overlay" 
                     style={{ backgroundColor: `rgba(0, 0, 0, ${darkness})` }}

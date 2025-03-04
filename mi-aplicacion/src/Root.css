@@ -4,6 +4,10 @@
 
 .all-container {
     animation: fadeInDesktop 0.8s ease-in forwards;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* height: 100vh;  */
+
 }
 
 @keyframes fadeInDesktop {
@@ -13,4 +17,13 @@
     to {
         opacity: 1;
     }
-  }
+}
+
+
+.outlet-container {
+    min-height: 100vh; /* Al menos una pantalla de altura */
+}
+
+.footer-reveal {
+    background-color: red; /* Para visualización */
+}

@@ -20,9 +20,13 @@ function Root() {
             <div className="outlet-container">
                 <Outlet />
             </div>
-            <Footer />
+            {/* <Footer /> */}
+            <div className="footer-reveal">
+                <Footer />
+            </div>
         </div>
     )
+    
 }
 
 export default Root;
