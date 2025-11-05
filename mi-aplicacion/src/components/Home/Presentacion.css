@@ -1,18 +1,19 @@
-.presentacion-container {
+/* .presentacion-container {
     padding: 1.5rem 5rem;
     position: relative;
     font-family: 'RobotoRegular', sans-serif;
-    min-height: 100vh;
+    min-height: 100dvh;
 }
 
 .presentacion-container h5 {
     position: relative;
     padding-top: 75px;
-    max-width: 500px;
-    font-size: 18px;
+    max-width: 600px;
+    font-size: 1.5rem;
     animation: fadeIn 1.5s ease-in-out 0.5s forwards;
     opacity: 0;
     color: #ffffff;
+    font-weight: 400;
 }
 
 .presentacion-container h1 {
@@ -20,7 +21,7 @@
     left: 50%;
     transform: translateX(-50%); 
     padding-top: 60px;
-    font-size: 260px;
+    font-size: 17rem;
     font-weight: 300px;
     margin: 0;
     white-space: nowrap;
@@ -28,13 +29,68 @@
     overflow: hidden;
     z-index: 1;
     transition: opacity 0.2s ease;
-    /* color: #F6EAD3; */
 }
 
 @keyframes fadeIn {
     0% {
         opacity: 0;
     }
+    100% {
+        opacity: 1;
+    }
+} */
+
+.presentacion-container {
+    /* padding: 0; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 8rem;
+    background-image: url('/pictures/pelo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.presentacion-container h5 {
+    padding: 0rem 5rem;
+    max-width: 600px;
+    font-size: 1.7rem;
+    animation: fadeIn 1.5s ease-in-out 0.5s forwards;
+    opacity: 0;
+    color: var(--cream-color);
+    color: white;
+    font-weight: 400;
+    font-family: 'Argesta';
+    line-height: 1.6rem;
+    font-style: italic;
+}
+
+.presentacion-container h1 {
+    color: var(--cream-color);
+    color: white;
+    font-size: 18rem;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    overflow: hidden;
+    z-index: 1;
+    transition: opacity 0.2s ease;
+    transform: translateY(5rem);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* opacity: 0.5; */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
     100% {
         opacity: 1;
     }

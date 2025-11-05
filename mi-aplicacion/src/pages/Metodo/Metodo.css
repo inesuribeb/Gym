@@ -1,6 +1,58 @@
 .metodo-container {
     background-color: white;
     color: black;
-    min-height: 200vh;
-    padding-top: 80px;
+    min-height: 100vh;
+    /* padding-top: 80px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 4rem;
+
+    /* background-image: url('/pictures/fondoWeb.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
 }
+
+.metodo-container h1 {
+    /* padding: 0rem 5rem; */
+    max-width: 600px;
+    font-size: 1.7rem;
+    /* opacity: 0; */
+    color: var(--cream-color);
+    color: var(--dark-color);
+    font-weight: 500;
+    font-family: 'Argesta';
+    line-height: 1.6rem;
+    font-style: italic;
+    opacity: 1;
+}
+
+.metodo-container h2 {
+    color: var(--dark-color);
+    /* color: var(--dark-color); */
+    font-size: 4rem;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    z-index: 1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 4.5rem;
+    letter-spacing: -0.1rem;
+    /* opacity: 0.5; */
+    font-weight: 900;
+    /* text-transform: uppercase; */
+    transform: scaleY(1.1); 
+}
+
+/* .color-h {
+    font-size: 5rem;
+    line-height: 6rem;
+
+    color: var(--orange-color);
+} */

@@ -35,18 +35,18 @@ function Header({ isDarkTheme }) {
     return (
         <div className={headerClass}>
             <h1>
-                <Link to="/">Summit F.C</Link>
+                <Link to="/">W42 SOCIAL</Link>
             </h1>
             <nav>
                 <ul className="nav-list">
                     <li>
                         <Link to="/metodo" className={isActive('/metodo') ? 'active' : ''}>
-                            Metodo
+                            Método
                         </Link>
                     </li>
                     <li>
                         <Link to="/entrenamiento" className={isActive('/entrenamiento') ? 'active' : ''}>
-                            Entrenamiento
+                            Manifesto
                         </Link>
                     </li>
                     <li>

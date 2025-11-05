@@ -1,8 +1,12 @@
 .planes-container {
     min-height: 100vh;
-    padding-top: 350px;
+    /* padding-top: 350px; */
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-image: url('/pictures/captura.png');
+    background-size: cover;
+    background-position: center 50%;
+    background-repeat: no-repeat;
 }

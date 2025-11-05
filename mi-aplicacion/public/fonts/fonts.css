@@ -11,3 +11,38 @@
     font-weight: regular;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'JotaArq';
+    src: url('/Fonts/NeueHaasDisplayLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JotaArq';
+    src: url('/Fonts/NeueHaasDisplayRoman.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JotaArq';
+    src: url('/Fonts/NeueHaasDisplayLight.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JotaArq';
+    src: url('/Fonts/NeueHaasDisplayMediu.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Argesta';
+    src: url('/Fonts/argestadisplay-regular-webfont.ttf') format('truetype');
+    /* font-weight: 700; */
+    font-style: normal;
+}

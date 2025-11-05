@@ -23,15 +23,17 @@
 .header-container h1 {
     margin: 0;
     padding-left: 1rem;
+    /* color: var(--orange-color); */
 }
 
 .header-container h1 a {
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 1.1px;
-    font-weight: 700;
+    letter-spacing: 0px;
+    font-weight: 900;
     font-size: 14px;
-    font-family: 'RobotoBold', sans-serif;
+    /* color: var(--orange-color); */
+    /* font-family: 'RobotoBold', sans-serif; */
 }
 
 .header-container h1 a:hover {
@@ -58,12 +60,13 @@
 .nav-list a {
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 1.1px;
-    font-weight: 700;
+    letter-spacing: 0px;
+    font-weight: 900;
     font-size: 14px;
-    font-family: 'RobotoBold', sans-serif;
+    /* font-family: 'RobotoBold', sans-serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
     display: inline-block;
-    padding: 6px 0;
+    padding: 3px 0;
 }
 
 .nav-list a::after {

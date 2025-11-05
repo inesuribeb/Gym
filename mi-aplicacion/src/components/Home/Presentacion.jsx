@@ -29,8 +29,8 @@ function Presentacion() {
 
     return (
         <div className="presentacion-container">
-            <h5>Consigue tu mejor versión gracias a un entrenamiento y seguimiento adpatado a ti.</h5>
-            <h1 style={{ opacity: opacity }}>SUMMIT F.C</h1>
+            <h5>*Si tienes un cuerpo, eres un atleta.<br/> Consigue tu mejor versión.</h5>
+            <h1 style={{ opacity: opacity }}>W42 SOCIAL</h1>
         </div>
     )
 }

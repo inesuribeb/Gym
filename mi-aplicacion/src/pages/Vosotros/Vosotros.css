@@ -1,6 +1,56 @@
 .vosotros-container {
-    background-color: black;
+    background-color: var(--dark-color);
     color: white;
     min-height: 200vh;
-    padding-top: 80px;
+    /* padding-top: 80px; */
+    /* padding-left: 5rem;
+    padding-right: 5rem; */
+    display: flex;
+    flex-direction: column;
+}
+
+.title,
+.img {
+    display: flex;
+}
+
+.title {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    height: 50vh;
+    justify-content: flex-start;
+    /* background-color: aquamarine; */
+    align-items: flex-end;
+    padding-bottom: 3rem;
+}
+
+.img {
+    height: 150vh;
+    overflow: hidden; 
+}
+
+.vosotros-container h2 {
+    color: white;
+    /* color: var(--dark-color); */
+    font-size: 4rem;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    z-index: 1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 4.5rem;
+    letter-spacing: -0.1rem;
+    opacity: 1;
+    font-weight: 900;
+    /* text-transform: uppercase; */
+    transform: scaleY(1.1); 
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Llena el contenedor sin deformar */
+    object-position: center; /* Centra la imagen, ajusta si necesitas */
 }

@@ -1,6 +1,7 @@
 .picture-container {
-    height: 120vh;
-    background-color: #F6EAD3;
+    height: 100vh;
+    /* background-color: #F6EAD3; */
+    background-color: var(--dark-color);
     color: black;
     display: flex;
     justify-content: center;
@@ -14,7 +15,7 @@
     height: auto;
     display: block;
     position: relative; /* Para posicionar el pseudo-elemento correctamente */
-
+    background-color: var(--dark-color);
 }
 
 .image-wrapper {
@@ -48,15 +49,18 @@
 
 /* .picture-container h5 */
 .text-container {
-    font-family: 'RobotoRegular', sans-serif;
+    /* font-family: 'RobotoRegular', sans-serif; */
     text-transform: uppercase;
+    line-height: 5rem;
     position: absolute;
     bottom: -30%; /* Ajusta según necesites para la posición vertical */
     left: 12%; /* Ajusta según necesites para la posición horizontal */
-    max-width: 70%;
+    max-width: 57%;
     /* line-height: 1.5; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 70px;
-    font-weight: 700;
+    font-weight: 1000;
     color: white;
     padding: 20px;
     border-radius: 4px;
@@ -70,7 +74,7 @@
 } */
 
 .text-container .highlighted {
-    color: #6DA6E1;
+    color: var(--orange-color);
 }
 
 /* Estilos para las palabras individuales */

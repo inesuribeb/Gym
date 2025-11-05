@@ -1,8 +1,8 @@
 .home-container {
-    background-color: black;
+    background-color: var(--dark-color);
     color: white;
     min-height: 200vh;
-    padding-top: 80px;
+    /* padding-top: 80px; */
 }
 
 /* .home-container h1 {
